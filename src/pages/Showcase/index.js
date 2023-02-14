@@ -5,7 +5,7 @@ import myProjects from "../../data/myProjects";
 import "./styles.css";
 
 export default function Showcase() {
-  const [projects, setProjects] = useState(myProjects);
+  const [projects] = useState(myProjects);
   const refCard = useRef(null);
 
   useEffect(() => {
